@@ -298,3 +298,7 @@ if(VCG_BUILD_EXAMPLES)
 	#TODO make the list of samples to build
 	add_subdirectory(${CMAKE_CURRENT_LIST_DIR}/apps)
 endif()
+
+add_subdirectory(${CMAKE_CURRENT_LIST_DIR}/vcg)
+
+add_subdirectory(${CMAKE_CURRENT_LIST_DIR}/wrap)
